@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Teko", sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(65, 64, 64, 0.669);
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.pagetitle{
+    font-family: "Anton", sans-serif;
+    font-size: xx-large;
+    margin-right: 10px; 
+    margin-left: 1vw; 
+    color:rgb(0, 0, 0);
+}
+
+header {
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    margin-right: 50vw;
+}
+
+.click{
+    font-size: x-large;
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.click a {
+    color: #000000;
+    margin-left: 20px; 
+    align-items: right;
+    font-family: "Teko", sans-serif;
+}
+
+html, body{width: 100vw;}
+a{text-decoration: none;}
+
+.icon{
+    background-image: url(../media/sprite3.png);
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 66px;
+    display:inline-block;
+    background-color: rgba(65, 64, 64, 0.669);
+}
+
+#vidbg{ 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    z-index:-1; 
+}
+
+nav{
+    display: flex;
+    background-color: rgba(65, 64, 64, 0.669);
+    justify-content: space-around;
+    box-shadow: 0px 8px 16px 0px rgba(196, 240, 196, 0.2);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.click a{
+    margin-left: 1vw; 
+    color:rgb(0, 0, 0);
+}
+
+.banner {
+    width: 46vw;
+    height: fit-content;
+    padding: 10px; 
+    text-align: center;
+    background-color: #ffffff;
+    margin: auto; 
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.banner p{
+    font-size: x-large;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin-top: 1em;
+    font-family: "Teko", sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #f0d5aa;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.banner h1{
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#soundcloud{background-position: -587px -72px;}
+#twitter{background-position: -66px -72px}
+#fb{background-position: -439px -146px;}
+#skype{background-position: -365px -147px;}
+
+footer{
+    text-align: center;
+    background-color: rgba(65, 64, 64, 0.669);
+    width: 99.9vw;
+}
+
+.ovr{
+    font-family: "Teko", sans-serif;
+    display:flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+}
+
+.highlight{
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.con10{
+    height: fit-content;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    min-height: 27vh;
+}
+
+#backg1{
+    background-color: #ffdca2;
+    width: 20vw;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    box-shadow: 10px 10px;
+}
+
+#backg2{
+    background-color: #f7b141;;
+    width: 20vw;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    box-shadow: 10px 10px;
+}
+
+#backg3{
+    background-color: #a07736;;
+    width: 20vw;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    box-shadow: 10px 10px;
+}
+
+
+
+.o1 {
+    background-image: url('media/happy-teens.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.hed{
+    display:flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 8vh;
+}
+
+.highlight1{
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.hed h1{
+    font-family: "Anton", sans-serif;
+}
+
+.con11{
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+    display: inline-block;
+    margin-top: 6vh;
+    padding: 10px;
+}
+.con21{
+    margin-top: 3vh;
+    height: fit-content;
+    display: inline-block;
+    padding: 10px;
+}
+
+.con31{
+    height: fit-content;
+    display: inline-block;
+    padding: 10px;
+}
+
+#backg4{
+    background-color: #9b7841;;
+    width: 40vw;
+    border-radius: 5px;
+    min-height: 133vh;
+    box-shadow: 10px 10px;
+}
+
+#backg6{
+    background-color: #ffb43b;;
+    width: 40vw;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    min-height: 133vh;
+    box-shadow: 10px 10px;
+
+}
+
+#backg5{
+    background-color: #f0d5aa;;
+    border-radius: 5px;
+    min-height: 133vh;
+    width: 40vw;
+    box-shadow: 10px 10px;
+}
+
+
+
+.o2{
+    background-image: url('media/happy_children_0.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+.head{
+    display:flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 8vh;
+
+}
+
+.highlight2{
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.con1{
+    height: fit-content;
+    display: inline-block;
+    padding: 10px;
+}
+.con2{
+    margin-top: 3vh;
+    height: fit-content;
+    display: inline-block;
+    padding: 10px;
+  
+}
+.con3{
+    margin-top: 6vh;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    
+}
+#backg0{
+    background-color: #ff7300;;
+    border-radius: 5px;
+    min-height: 60vh;
+    width: 40vw;
+    box-shadow: 10px 10px;
+}
+
+#backg01{
+    background-color: #ff9d00;;
+    border-radius: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    min-height: 60vh;
+    width: 40vw;
+    box-shadow: 10px 10px;
+}
+
+#backg02{
+    background-color: #ffc400;;
+    border-radius: 5px;
+    min-height: 60vh;
+    width: 40vw;
+    box-shadow: 10px 10px;
+}
+
+.review{
+    color:rgb(0, 0, 0);
+    padding-left: 1vw;
+    padding-right: 5vw;
+    line-height: 1.5;
+    margin-top: 1vh;
+    font-size: x-large;
+}
+
+.botnavbar
+{
+    margin-top: 1vh;
+    justify-content: space-between;
+    display: flex;
+    background-color: #ffd986;
+    height: fit-content;
+    width: 100vw;
+    padding: 0;
+    align-items: center; 
+    display: block;
+    padding: 3px;
+    text-align: center;
+}
+
+.rt{
+    color: #000000;
+    font-size: x-large;
+}
+
+.gt a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Anton", sans-serif;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #a56f18;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.link1:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size:xx-large;
+    font-family: 'anton';
+}
+
+.link2:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size:xx-large;
+    font-family: 'anton';
+}
+
+.banner a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size:xx-large;
+    font-family: 'anton';
+}
+
+.gt a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size:xx-large;
+    font-family: 'anton';
+}
+
+.banner a:hover,
+.gt a:hover {
+    transform: rotate(360deg); 
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1920px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
