@@ -285,8 +285,6 @@ footer{
     background-attachment: fixed; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
-
 .head{
     display:flex;
     justify-content: center;
@@ -416,8 +414,9 @@ footer{
     font-family: 'anton';
 }
 
-.banner a:hover,
-.gt a:hover {
+.banner a:hover{
+    transform: rotate(360deg); 
+} .gt a:hover {
     transform: rotate(360deg); 
 }
 
